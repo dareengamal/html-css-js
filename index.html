@@ -1,0 +1,100 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image {
+            text-align: center;
+        }
+        .image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .details {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <div class="container">
+        <div class="image">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="navigation">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+        <div class="details">
+            <h2>Image Details</h2>
+            <p><strong>Title:</strong> Beautiful Landscape</p>
+            <p><strong>Description:</strong> A stunning landscape with mountains and a lake.</p>
+            <p><strong>Date:</strong> August 24, 2023</p>
+        </div>
+    </div>
+    <script>
+        const prevButton = document.getElementById('prevBtn');
+        const nextButton = document.getElementById('nextBtn');
+
+        // Add functionality to navigate between images
+        // You can add your JavaScript code here to handle navigation
+
+    </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <div class="container">
+        <div class="image-container">
+            <!-- JavaScript will generate and insert images here -->
+        </div>
+        <div class="navigation">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+        <div class="details">
+            <h2>Image Details</h2>
+            <p><strong>Title:</strong> <span id="imageTitle"></span></p>
+            <p><strong>Description:</strong> <span id="imageDescription"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
